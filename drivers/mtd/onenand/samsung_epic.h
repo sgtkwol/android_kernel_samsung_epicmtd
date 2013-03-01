@@ -42,12 +42,12 @@ struct mtd_partition s3c_partition_info[] = {
 	{
 		.name		= "system",
 		.offset		= (132*SZ_256K),
-		.size		= (256*SZ_256K), //387
+		.size		= (270*SZ_256K), //401
 	},
 	{
 		.name		= "userdata",
-		.offset		= (388*SZ_256K),
-		.size		= (3524*SZ_256K), //3611
+		.offset		= (402*SZ_256K),
+		.size		= (3208*SZ_256K), //3611
 	},
 	{
 		.name		= "cache",
